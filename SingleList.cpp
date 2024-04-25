@@ -140,5 +140,9 @@ void searchData() {
 
 int main()
 {
-    int pilihan
+	int pilihan;
+	do
+	{
+
+	} while (pilihan != 5);
 }
