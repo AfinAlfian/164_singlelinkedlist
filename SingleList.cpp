@@ -152,6 +152,13 @@ int main()
 			cout << "5. Keluar" << endl;
 			cout << "Pilihan: ";
 			cin >> pilihan;
+			switch (pilihan)
+			{
+
+			default:
+				cout << "pilihan tidak ada" << endl;
+				break;
+			}
 		}
 		catch (exception e)
 		{
