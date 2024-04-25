@@ -182,6 +182,9 @@ int main()
 					cout << "Data tidak ditemukan" << endl;
 					break;
 				}
+			case 3:
+				traverse();
+				break;
 			default:
 				cout << "pilihan tidak ada" << endl;
 				break;
