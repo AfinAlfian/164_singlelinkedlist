@@ -160,6 +160,28 @@ int main()
 				system("pause");
 				system("cls");
 				break;
+			case 2:
+				if (listEmpty())
+				{
+					cout << "List kosong" << endl;
+					system("pause");
+					system("cls");
+				}
+
+				int nim;
+				cout << "Masukkan NIM: ";
+				cin >> nim;
+				if (deleteNode(nim))
+				{
+					cout << "nim: " << nim << " berhasil dihapus" << endl;
+					system("pause");
+					system("cls");
+				}
+				else
+				{
+					cout << "Data tidak ditemukan" << endl;
+					break;
+				}
 			default:
 				cout << "pilihan tidak ada" << endl;
 				break;
